@@ -1,0 +1,395 @@
+[
+  {
+    "accountId": "liquidator.near",
+    "collateral": [
+      {
+        "tokenId": "aurora",
+        "shares": "15099941751313132",
+        "balance": "15100355614251835",
+        "pricedBalance": "48.47803066043794856565",
+        "adjustedPricedBalance": "29.08681839626276913939"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "1.172191246413669913486661e+24",
+        "balance": "1.172209861542953274369514e+24",
+        "pricedBalance": "17.983105927902754772757588177",
+        "adjustedPricedBalance": "29.971843213171257954595980295"
+      }
+    ],
+    "adjustedCollateralSum": "29.08681839626276913939",
+    "adjustedBorrowedSum": "29.971843213171257954595980295",
+    "adjustedDebt": "0.885024816908488815205980295",
+    "healthFactor": "0.970471458474747366296315109",
+    "discount": "0.014764270762626316851842446"
+  },
+  {
+    "accountId": "refchain.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "5.68999615162188702866811e+23",
+        "balance": "5.69000027985305342904613e+23",
+        "pricedBalance": "8.729143229328166326568248956",
+        "adjustedPricedBalance": "5.2374859375968997959409493736"
+      },
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "33536479171510660762",
+        "balance": "33548339762970208411",
+        "pricedBalance": "33.548339762970208411",
+        "adjustedPricedBalance": "31.87092277482169799045"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "aurora",
+        "shares": "10001659372989",
+        "balance": "10002768770752",
+        "pricedBalance": "0.03211278883393451328",
+        "adjustedPricedBalance": "0.0535213147232241888"
+      },
+      {
+        "tokenId": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "shares": "71161945764043",
+        "balance": "71180469999498",
+        "pricedBalance": "0.0000711377617174983012",
+        "adjustedPricedBalance": "0.000074881854439471896"
+      },
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "35119899153630258873",
+        "balance": "35137759962139681833",
+        "pricedBalance": "35.137759962139681833",
+        "adjustedPricedBalance": "36.987115749620717718947368421"
+      }
+    ],
+    "adjustedCollateralSum": "37.1084087124185977863909493736",
+    "adjustedBorrowedSum": "37.040711946198381379643368421",
+    "adjustedDebt": "-0.0676967662202164067475809526",
+    "healthFactor": "1.001827631345708093607595258",
+    "discount": "0"
+  },
+  {
+    "accountId": "burrowed.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "7.999999394801975108313404e+24",
+        "balance": "8.00000519899690824406386e+24",
+        "pricedBalance": "122.729679758851368753832489032",
+        "adjustedPricedBalance": "73.6378078553108212522994934192"
+      },
+      {
+        "tokenId": "aurora",
+        "shares": "1999999820960304",
+        "balance": "2000054637450125",
+        "pricedBalance": "6.42095540752350679875",
+        "adjustedPricedBalance": "3.85257324451410407925"
+      },
+      {
+        "tokenId": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "shares": "12662297778700422396",
+        "balance": "12663342346171159087",
+        "pricedBalance": "12.663342346171159087",
+        "adjustedPricedBalance": "12.03017522886260113265"
+      },
+      {
+        "tokenId": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "shares": "16713900684899983126",
+        "balance": "16716728597267718127",
+        "pricedBalance": "16.7066985601093574961238",
+        "adjustedPricedBalance": "15.87136363210388962131761"
+      },
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "689999597593721263",
+        "balance": "690243624502224632",
+        "pricedBalance": "0.690243624502224632",
+        "adjustedPricedBalance": "0.6557314432771134004"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "aurora",
+        "shares": "2000000000000000",
+        "balance": "2000221842740605",
+        "pricedBalance": "6.42149220171601088595",
+        "adjustedPricedBalance": "10.70248700286001814325"
+      },
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "19251330609133759167",
+        "balance": "19261121193328127179",
+        "pricedBalance": "19.261121193328127179",
+        "adjustedPricedBalance": "20.274864414029607556842105263"
+      },
+      {
+        "tokenId": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "shares": "12662300000000000000",
+        "balance": "12664383768514995317",
+        "pricedBalance": "12.664383768514995317",
+        "adjustedPricedBalance": "13.330930282647363491578947368"
+      },
+      {
+        "tokenId": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "shares": "16714268999999998000",
+        "balance": "16718619907652764165",
+        "pricedBalance": "16.708588735708172506501",
+        "adjustedPricedBalance": "17.58798814285070790158"
+      },
+      {
+        "tokenId": "wrap.near",
+        "shares": "1.1189e+24",
+        "balance": "1.118917768830998249974171e+24",
+        "pricedBalance": "17.165541275190110352503752145",
+        "adjustedPricedBalance": "28.609235458650183920839586908"
+      }
+    ],
+    "adjustedCollateralSum": "106.0476514040685294859171034192",
+    "adjustedBorrowedSum": "90.505505301037881014090639539",
+    "adjustedDebt": "-15.5421461030306484718264638802",
+    "healthFactor": "1.171725974583917574605040121",
+    "discount": "0"
+  },
+  {
+    "accountId": "cioprox.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "3.999997901433356935383391e+24",
+        "balance": "4.000000803529520484882332e+24",
+        "pricedBalance": "61.364812327107079662676831678",
+        "adjustedPricedBalance": "36.8188873962642477976060990068"
+      },
+      {
+        "tokenId": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "shares": "116312305950529",
+        "balance": "116321901053516",
+        "pricedBalance": "0.000116321901053516",
+        "adjustedPricedBalance": "0.0001105058060008402"
+      },
+      {
+        "tokenId": "aurora",
+        "shares": "100081497720156",
+        "balance": "100084240778602",
+        "pricedBalance": "0.32130944575321607478",
+        "adjustedPricedBalance": "0.192785667451929644868"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "shares": "516687876134252",
+        "balance": "516772904756886",
+        "pricedBalance": "0.000516772904756886",
+        "adjustedPricedBalance": "0.000543971478691458947368421"
+      },
+      {
+        "tokenId": "aurora",
+        "shares": "4999953215815240",
+        "balance": "5000507817477386",
+        "pricedBalance": "16.05358029215122524054",
+        "adjustedPricedBalance": "26.7559671535853754009"
+      }
+    ],
+    "adjustedCollateralSum": "37.0117835695221782826740990068",
+    "adjustedBorrowedSum": "26.756511125064066859847368421",
+    "adjustedDebt": "-10.2552724444581114228267305858",
+    "healthFactor": "1.383281377625183776217173443",
+    "discount": "0"
+  },
+  {
+    "accountId": "testbrrr.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "3.999997851439436100701396e+24",
+        "balance": "4.000000753535563378389843e+24",
+        "pricedBalance": "61.364811560139784900554259432",
+        "adjustedPricedBalance": "36.8188869360838709403325556592"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.factory.bridge.near",
+        "shares": "16713569120266230063",
+        "balance": "16717919845732620643",
+        "pricedBalance": "16.7078890938251810706142",
+        "adjustedPricedBalance": "17.587251677710716916436"
+      }
+    ],
+    "adjustedCollateralSum": "36.8188869360838709403325556592",
+    "adjustedBorrowedSum": "17.587251677710716916436",
+    "adjustedDebt": "-19.2316352583731540238965556592",
+    "healthFactor": "2.093498609720042505983481869",
+    "discount": "0"
+  },
+  {
+    "accountId": "blaze.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "5.4999962796594262116724256e+25",
+        "balance": "5.5000002700410454161466877e+25",
+        "pricedBalance": "843.766041427536859381895653432",
+        "adjustedPricedBalance": "506.2596248565221156291373920592"
+      },
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "78972665936862650037",
+        "balance": "79000595598839336020",
+        "pricedBalance": "79.00059559883933602",
+        "adjustedPricedBalance": "75.050565818897369219"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "dac17f958d2ee523a2206206994597c13d831ec7.factory.bridge.near",
+        "shares": "15088774445349",
+        "balance": "15091257526079",
+        "pricedBalance": "0.000015091257526079",
+        "adjustedPricedBalance": "0.000015885534237977894736842"
+      },
+      {
+        "tokenId": "wrap.near",
+        "shares": "9.999898227750356604708877e+24",
+        "balance": "1.0000057032381341139087735e+25",
+        "pricedBalance": "153.412874945168630682972760182",
+        "adjustedPricedBalance": "255.68812490861438447162126697"
+      }
+    ],
+    "adjustedCollateralSum": "581.3101906754194848481373920592",
+    "adjustedBorrowedSum": "255.688140794148622449516003812",
+    "adjustedDebt": "-325.6220498812708623986213882472",
+    "healthFactor": "2.27351252533618745371092994",
+    "discount": "0"
+  },
+  {
+    "accountId": "todd.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "100107792325511270184",
+        "balance": "100107864956159387566",
+        "pricedBalance": "0.001535774777865432396527519",
+        "adjustedPricedBalance": "0.0009214648667192594379165114"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "432992598993489406",
+        "balance": "432999475186460189",
+        "pricedBalance": "0.000006642731548730523051487",
+        "adjustedPricedBalance": "0.000011071219247884205085812"
+      }
+    ],
+    "adjustedCollateralSum": "0.0009214648667192594379165114",
+    "adjustedBorrowedSum": "0.000011071219247884205085812",
+    "adjustedDebt": "-0.0009103936474713752328306994",
+    "healthFactor": "83.230658348253598315674704741",
+    "discount": "0"
+  },
+  {
+    "accountId": "wagmi100.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "5.5000145885314554890115e+22",
+        "balance": "5.5000185789263582272736e+22",
+        "pricedBalance": "0.843768850230250468362497523",
+        "adjustedPricedBalance": "0.5062613101381502810174985138"
+      }
+    ],
+    "borrowed": [
+      {
+        "tokenId": "6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near",
+        "shares": "1182080233446501",
+        "balance": "1182681399998831",
+        "pricedBalance": "0.001182681399998831",
+        "adjustedPricedBalance": "0.001244927789472453684210526"
+      },
+      {
+        "tokenId": "wrap.near",
+        "shares": "208220403643191650",
+        "balance": "208223710313280777",
+        "pricedBalance": "0.000003194401584658103056112",
+        "adjustedPricedBalance": "0.000005324002641096838426853"
+      }
+    ],
+    "adjustedCollateralSum": "0.5062613101381502810174985138",
+    "adjustedBorrowedSum": "0.001250251792113550522637379",
+    "adjustedDebt": "-0.5050110583460367304948611348",
+    "healthFactor": "404.927482073283486081849389667",
+    "discount": "0"
+  },
+  {
+    "accountId": "owner.beta.burrow.near",
+    "collateral": [],
+    "borrowed": [],
+    "adjustedCollateralSum": "0",
+    "adjustedBorrowedSum": "0",
+    "adjustedDebt": "0",
+    "healthFactor": "1000000000",
+    "discount": "0"
+  },
+  {
+    "accountId": "ciocan.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "1.999999681110544899581815e+24",
+        "balance": "2.000001132159156592918715e+24",
+        "pricedBalance": "30.682417368680053123284590558",
+        "adjustedPricedBalance": "18.4094504212080318739707543348"
+      }
+    ],
+    "borrowed": [],
+    "adjustedCollateralSum": "18.4094504212080318739707543348",
+    "adjustedBorrowedSum": "0",
+    "adjustedDebt": "-18.4094504212080318739707543348",
+    "healthFactor": "1000000000",
+    "discount": "0"
+  },
+  {
+    "accountId": "d231a4b8865d510fde55f0ab5cf692baa83f00cc2224b1cc8e0f88e767a0b9cd",
+    "collateral": [],
+    "borrowed": [],
+    "adjustedCollateralSum": "0",
+    "adjustedBorrowedSum": "0",
+    "adjustedDebt": "0",
+    "healthFactor": "1000000000",
+    "discount": "0"
+  },
+  {
+    "accountId": "vlad.near",
+    "collateral": [
+      {
+        "tokenId": "wrap.near",
+        "shares": "116951964436348784",
+        "balance": "116952049287855128",
+        "pricedBalance": "0.000001794184778534843089674",
+        "adjustedPricedBalance": "0.0000010765108671209058538044"
+      }
+    ],
+    "borrowed": [],
+    "adjustedCollateralSum": "0.0000010765108671209058538044",
+    "adjustedBorrowedSum": "0",
+    "adjustedDebt": "-0.0000010765108671209058538044",
+    "healthFactor": "1000000000",
+    "discount": "0"
+  },
+  {
+    "accountId": "patrick-test.near",
+    "collateral": [],
+    "borrowed": [],
+    "adjustedCollateralSum": "0",
+    "adjustedBorrowedSum": "0",
+    "adjustedDebt": "0",
+    "healthFactor": "1000000000",
+    "discount": "0"
+  }
+]
