@@ -188,6 +188,15 @@ const Dashboard = (props) => {
       return name
     }
   }
+  const formatter = new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+
+    // These options are needed to round to whole numbers if that's what you want.
+    minimumFractionDigits: 0, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
+    maximumFractionDigits: 2, // (causes 2500.99 to be printed as $2,501)
+  })
+
   let burrowUsers = Object.keys(burrowData)
   let totalBorrowed = 0
   let totalCollateral = 0
@@ -201,25 +210,22 @@ const Dashboard = (props) => {
             /* eslint-disable-next-line react/prop-types */
             totalCollateral += parseFloat(account.adjustedCollateralSum)
             /* eslint-disable-next-line react/prop-types */
-            let color = account.healthFactor < 1 ? 'danger' : ''
+            let color = parseFloat(account.healthFactor) < 1 ? 'danger' : ''
             return (
               <CTableRow key={'row-key-' + index} color={color}>
                 {/* eslint-disable-next-line react/prop-types */}
                 <CTableDataCell>{getNearAccountShortName(account.accountId)}</CTableDataCell>
                 <CTableDataCell>
-                  {'$'}
                   {/* eslint-disable-next-line react/prop-types */}
-                  {parseFloat(account.adjustedBorrowedSum).toFixed(2)}
+                  {formatter.format(parseFloat(account.adjustedBorrowedSum))}
                 </CTableDataCell>
                 <CTableDataCell>
-                  {'$'}
                   {/* eslint-disable-next-line react/prop-types */}
-                  {parseFloat(account.adjustedCollateralSum).toFixed(2)}
+                  {formatter.format(parseFloat(account.adjustedCollateralSum))}
                 </CTableDataCell>
                 <CTableDataCell className="d-none d-lg-table-cell">
-                  {'$'}
                   {/* eslint-disable-next-line react/prop-types */}
-                  {parseFloat(account.adjustedDebt).toFixed(2)}
+                  {formatter.format(parseFloat(account.adjustedDebt))}
                 </CTableDataCell>
                 <CTableDataCell className="d-none d-lg-table-cell">
                   {/* eslint-disable-next-line react/prop-types */}
@@ -248,15 +254,14 @@ const Dashboard = (props) => {
             <div className="text-medium-emphasis">Total Borrowed</div>
             <strong>
               {'$'}
-              {totalBorrowed.toFixed(2)} ({totalBorrowedPercent.toFixed(2)}%)
+              {formatter.format(totalBorrowed)} ({totalBorrowedPercent.toFixed(2)}%)
             </strong>
             <CProgress thin className="mt-2" color={'primary'} value={totalBorrowedPercent} />
           </CCol>
           <CCol className="mb-sm-2 mb-0" key="total-collateral">
             <div className="text-medium-emphasis">Total Collateral</div>
             <strong>
-              {'$'}
-              {totalCollateral.toFixed(2)} ({totalCollateralPercent.toFixed(2)}%)
+              {formatter.format(totalCollateral)} ({totalCollateralPercent.toFixed(2)}%)
             </strong>
             <CProgress thin className="mt-2" color={'secondary'} value={totalCollateralPercent} />
           </CCol>

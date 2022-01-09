@@ -1,19 +1,19 @@
 {
-  "name": "@coreui/coreui-free-react-admin-template",
-  "version": "4.1.1",
-  "description": "CoreUI Free React Admin Template",
-  "homepage": "https://zavodil.github.io",
+  "name": "burrow-cash-dashboard",
+  "version": "0.1.1",
+  "description": "Near DeFi",
+  "homepage": "https://zavodil.github.io/burrow-dashboard",
   "bugs": {
-    "url": "https://github.com/coreui/coreui-free-react-admin-template/issues"
+    "url": "https://github.com/zavodil/burrow-dashboard/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:coreui/coreui-free-react-admin-template.git"
+    "url": "git@github.com:zavodil/burrow-dashboard.git"
   },
   "license": "MIT",
-  "author": "The CoreUI Team (https://github.com/orgs/coreui/people)",
+  "author": "Vadim Ilin <vadim@near.org>",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "export NODE_ENV=mainnet && react-scripts build",
     "build:n17": "react-scripts --openssl-legacy-provider build",
     "changelog": "auto-changelog --starting-version 4.1.0 --commit-limit false --hide-credit",
     "eject": "react-scripts eject",
